@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --red: hsl(0, 100%, 74%); 
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --secondary: hsl(249, 10%, 26%) ;
+  --light: hsl(246, 25%, 77%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background-color: var(--red); 
+   background-image: url(../img/bg-intro-desktop.png); 
+  /* background-image: url(../../design/desktop-design.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  width: 50%;
+}
+.welcome{
+  padding: 19px;
+  padding-top: 29px;
+}
+.title{
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  line-height: 3.3rem;
+  margin-top: 5.5rem;
+  font-weight: 700;
+}
+.description{
+  color: #fff;
+  margin-top: 1.4rem;
+  letter-spacing: -.50px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form{
+  border: 1px solid #000;
+  width: 93%;
+}
+.register-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  
+}
+.form-input{
+  width: 86%;
+  margin: 16px 0px;
+  height: 3em;
+  padding-left: 1em;
+  border-radius: 6px;
+
+}
+.CTA{
+  padding-top: 10px;
+  color: #fff;
+  width: 90%;
+}
+.offer{
+  padding: 16px 30px;
+  margin-bottom: 23px;
+  text-align: center;
+  font-size: .90rem;
+  background-color: var(--blue);
+  border-radius: 6px;
+  border-bottom: 3px solid hsl(248deg 32% 42%);
+}
+.highlight{    
+  font-weight: 700;
+}
